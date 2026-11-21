@@ -1,3 +1,5 @@
+// Fast CSV reader entry (csv-reader-speed-01): the house driver below, kept as
+// the baseline runs it, answering every case with the fast run() in solve.js.
 // The harness runs `node /bot/main.ts` (node22). It reads every case from /input/cases.json (a JSON
 // array of {id, input}), answers each one alone with run() from solve.js, and writes /output/answers.json: a JSON
 // array of the answers, one per case and in the cases' order. Outside a container MAKEFUN_INPUT_DIR and MAKEFUN_OUTPUT_DIR stand in for /input and /output.
